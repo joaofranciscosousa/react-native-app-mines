@@ -46,11 +46,11 @@ export default function App() {
 
     if (hadExplosion(b)) {
       showMines(b);
-      Alert.alert("Perdeuuuu");
+      Alert.alert("Perdeu");
     }
 
     if (wonGame(b)) {
-      Alert.alert("Venceuuuu");
+      Alert.alert("Venceu");
     }
 
     setBoard(b);

@@ -21,8 +21,8 @@ const createBoard = (rows: number, column: number): Board => {
 };
 
 const spreadMines = (board: Board, minesAmount: number) => {
-  const rows: number = board.length;
-  const column: number = board[0].length;
+  const rows: number = board?.length;
+  const column: number = board[0]?.length;
   let minesPlanted: number = 0;
 
   while (minesPlanted < minesAmount) {
